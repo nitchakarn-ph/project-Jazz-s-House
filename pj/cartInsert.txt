@@ -1,0 +1,71 @@
+Select * 
+from menu, catalog, promotion
+where  catologName = "promotion" and menu.MenuID = promotion.MenuID
+
+Promotion (MenuID, startDate, endDate) =  > promotion table
+
+<!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable" name="clickHere">
+                            Click here
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <form action="" method="POST">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalScrollableTitle">My order</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col">
+
+                                                            <input type="text" value="<?php echo $objResult["Menu_Id"] ?>" name="menuID" readonly hidden>
+
+                                                            <div class="form-group row">
+                                                                <label for="select" class="col-8 col-form-label text-md-left text-muted">Select number :</label>
+                                                                <div class="col-9">
+                                                                    <select id="select" name="select" class="custom-select">
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="1">5</option>
+                                                                        <option value="2">6</option>
+                                                                        <option value="3">7</option>
+                                                                        <option value="4">8</option>
+                                                                        <option value="3">9</option>
+                                                                        <option value="4">10</option>
+                                                                    </select>
+                                                                    <br>
+                                                                    <input class="btn btn-info" style="float:left;" type="submit" value="Submit" name="submit_number">
+                                                                </div>
+                                                            </div>
+                                                            <p class="text-md-left">Take away : <input type="checkbox" id="myCheck" onclick="myFunction()"></p>
+
+                                                            <p id="text" style="display:none" class="text-md-left">CHECKED!</p>
+
+                                                            <br><br><br>
+                                                            <hr class="new1">
+                                                            <p class="text-right"><strong>Free</strong> | delivery</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-warning">Save changes</button>
+                                            <!--<a class="btn btn-warning" href="order.php" role="button">Save changes</a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+

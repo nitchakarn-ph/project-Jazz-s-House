@@ -1,0 +1,33 @@
+ if (isset($_POST['submitSearch'])) {
+        //echo "search";
+        // $menuSearch = "SELECT * FROM `menus` WHERE `Menu_Name_Tha` LINK '"OR `Menu_Name_Eng`";
+        $inputMenu = $_POST['search'];
+        //echo $inputMenu;
+        $menuSearch = "SELECT * FROM `menus` WHERE `Menu_Name_Tha` LIKE $inputMenu OR Menu_Name_Eng LIKE $inputMenu ; ";
+        $resultSearch = mysqli_query($connectData, $menuSearch);
+    }
+
+
+
+<?php
+            while ($objResultSearch = mysqli_fetch_array($resultSearch)) {
+                ?>
+                <div class="container">
+                <div class="col-xs-3 col-md-3">
+                    <img src="<?php echo $objResultSearch['Menu_Imge']; ?>" width="100%">
+                    <br><br>
+                    <p><?php echo $objResultSearch['Menu_Name_Tha'] . " (" . $objResultSearch['Menu_Name_Eng'] . ") " ?></p>
+                    <p><?php echo "Menu code : " . $objResultSearch['Menu_Id'] ?></p>
+                    <h6 class="text-dark">Price : <?php echo $objResultSearch['Menu_Price'] ?> THB</h6>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
+                        Click here
+                    </button>
+                    <br><br>
+                </div>
+                </div>
+
+
+            <?php   } ?>
+       

@@ -1,0 +1,169 @@
+
+<!--=====================================================cart list============================================================-->
+    <div class="container">
+        <h4>Carts list.</h4>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Menu</th>
+                    <th scope="col">Number</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Remove</th>
+                    <th scope="col">Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <?php
+                $i = 1;
+
+                while ($obj = mysqli_fetch_array($resultCart)) {
+
+                    ?>
+                    <tr>
+                       
+                            <td><?php echo $i; ?></td>
+                            <td><?php echo $obj['pname'] ?></td>
+                            <td><?php echo $obj['quantity'] ?></td>
+                            <td><?php $number =  $obj['quantity'];
+                                $price = $obj['price_product'];
+                                $totalprice = $number * $price;
+                                echo $totalprice . "\tß";
+                                ?></td>
+                            <td>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                                    <i class='fa fa-trash' aria-hidden='true'></i>
+                                </button>
+                                <form action="" method="post">
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <input name="product_id" type="hidden" value="<?php echo $obj['pid']?> " >
+                                                    <h6>Are you sure ?</h6>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    <button type="submit" class="btn btn-success" name="deleteCart">Save change</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        
+                        <td >
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#abc<?=$obj['pid']?>">
+                                <i class='fa fa-plus' aria-hidden='true'></i>
+                            </button>
+                            
+                            <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#minus<?=$obj['pid']?>"><i class='fa fa-minus' aria-hidden='true'></i></button>
+                           
+                            
+                            <!-- =====================================================Modal Add=================================================================-->
+                            <div class="container">
+                                <div class="modal fade" id="abc<?= $obj['pid'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Add to cart</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <form action="" method="post">
+                                                <div class="modal-body">
+                                                    <div class="form-group row">
+                                                        <label for="select" class="col-4 col-form-label">Select number :</label>
+                                                        <div class="col-7">
+                                                            <input type="hidden" value="<?php echo $obj["pid"]?>" name="pro_id">
+                                                            <input type="hidden" value="<?php echo $obj["quantity"]?>" name="old_num">
+                                                            <select name="select" class="custom-select">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    <input class="btn btn-success" type="submit" value="Save change" name="submitSelect" >
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--=================================================modal minus =====================================================-->
+                            <div class="container">
+                                <div class="modal fade" id="minus<?= $obj['pid'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Change my cart</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <form action="" method="post">
+                                                <div class="modal-body">
+                                                    <div class="form-group row">
+                                                        <label for="select" class="col-4 col-form-label">Select number :</label>
+                                                        <div class="col-7">
+                                                            <input type="hidden" value="<?php echo $obj["pid"]?>" name="pro_id">
+                                                            <input type="hidden" value="<?php echo $obj["quantity"]?>" name="old_num">
+                                                            <select name="select" class="custom-select">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    <input class="btn btn-success" type="submit" value="Save change" name="submitminus">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                       
+
+                    </tr>
+                    
+                    <?php $i++;
+                } ?>
+            </tbody>
+</table>

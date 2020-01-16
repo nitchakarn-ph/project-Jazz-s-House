@@ -1,0 +1,179 @@
+﻿FST1,สันคอหมูเทอริยากิ ,Teriyaki pork steak,79,NULL,NULL,NULL,NULL
+FST2 ,สันคอหมูพริกไทยดำ ,Black pepper pork steak,79,NULL,NULL,NULL,NULL
+FST3 ,ไส้กรอกหมูรมควัน,Smoked pork sausage,79,NULL,NULL,NULL,NULL
+FST4 ,สเกต็กไก่พริกไทยดำ ,Black pepper chicken steak,79,NULL,NULL,NULL,NULL
+FST5 ,สเตกไก่สไปซี่ ,Spicy chicken steak,79,NULL,NULL,NULL,NULL
+FST6 ,พอร์คชอพริกไทยดำคำไวน์แดง  ,Black Peper red wine Porkchop,129,NULL,NULL,NULL,NULL
+FST7 ,พอรคซอพริบน้ำผึ้งมัสตาร์ดซอส ,Honey mustard sauce Porkchop Rib,145,NULL,NULL,NULL,NULL
+FST8 ,สเต็กเนี้อสันนอกพริกไทยดำไวน์แดง ,"Black pepper, red wine Steiploin ",189,NULL,NULL,NULL,NULL
+FST9 ,สเต็กเนี้อสันแหลมพริกไทยไวน์แดง ,"Black pepper, red wine Rib Eye",189,NULL,NULL,NULL,NULL
+FST10 ,สเต็กเนื้อทีโบนพริกไทยดำไวน์แดง ,"Black pepper, red wine T-Bome steak",250,NULL,NULL,NULL,NULL
+FST11 ,สเต็กเซ็ตคู่ ทีโบน+สันนอก ,Combo T-bone + Striploin,395,NULL,NULL,NULL,NULL
+FST12 ,สเต็กปลาแซลมอลเทริยากิ ,Salmon Teriyaki,189,NULL,NULL,NULL,NULL
+FST13 ,สเต็กปลาซาบะเทริยากิ ,Saba Teriyaki,129,NULL,NULL,NULL,NULL
+FST14 ,สเต็กทีโบน ,T-Bone steak,250,NULL,NULL,NULL,NULL
+FST15 ,สเต็กเนี้อสัน ,Striploin steak,189,NULL,NULL,NULL,NULL
+FSA1 ,สลัด แจสเฮาส์ ,Jazz House Salad,60,NULL,NULL,NULL,NULL
+FSA2 ,สลัด ไก่ ,Chicken Salad,79,NULL,NULL,NULL,NULL
+FSA3 ,สลัดแฮม ,Ham Salad ,79,NULL,NULL,NULL,NULL
+FSA4 ,สลัดไส้กรอก ,Sausage Salad,79,NULL,NULL,NULL,NULL
+FSA5 ,สลัดกุ้งทอด ,Fried Shrimp Salad,99,NULL,NULL,NULL,NULL
+FSA6 ,สลัดปลาแซลมอลทอด ,Fried Salmon Salad,135,NULL,NULL,NULL,NULL
+FSP1 ,สปาเกตตี้ซอสหมู ,Spaghetti pork sauce,65,NULL,NULL,NULL,NULL
+FSP2 ,สปาเกตตี้ซอสไก่ ,Spaghetti chicken sauce,65,NULL,NULL,NULL,NULL
+FSP3 ,สปาเกตตี้กระเพราหมู ,Spaghetti Krapoa pork,65,NULL,NULL,NULL,NULL
+FSP4 ,สปาเก็ตตี้กระเพราไก่ ,Spaghetti Krapoa chicken,65,NULL,NULL,NULL,NULL
+FSP5 ,สปาเกตตี้เบคอนสไปซ์ ,Spaghetti Bacon spice,69,NULL,NULL,NULL,NULL
+FSP6 ,สปาเกตตี้คาโยนารา ,Spaghetti cabpnara,89,NULL,NULL,NULL,NULL
+FOR1 ,ข้าวกระเพราไก่ ,Kraprao chicken  ,49,NULL,NULL,NULL,NULL
+FOR2 ,ข้าวกระเพราหมูสับ ,Kraprao pork,49,NULL,NULL,NULL,NULL
+FOR3 ,ข้าวแพนงหมู ,Pork Panang curry,55,NULL,NULL,NULL,NULL
+FOR4 ,ข้าวแกงเขียวหวานไก่ ,Gree curry pork,55,NULL,NULL,NULL,NULL
+FOR5 ,ข้าวแกงเขียวหวานหมู,Gree curry chicken,55,NULL,NULL,NULL,NULL
+FOR6 ,ข้าวหมูเทริยากิ ,Pork teriyakj,55,NULL,NULL,NULL,NULL
+FOR7 ,ข้าวหมูเกาหลี ,Korean style pork,55,NULL,NULL,NULL,NULL
+FOR8 ,ข้าวกระเพราหมูกรอบ ,Kraprao  crispy pork,55,NULL,NULL,NULL,NULL
+FOR9 ,ข้าวไข่เจียวหมูสับ ไข่สองฟอง ,Fried egg with pork two eggs,50,NULL,NULL,NULL,NULL
+FOR10 ,ข้าวคะน้าหมู ,Stir-fried kale with pork,55,NULL,NULL,NULL,NULL
+FOR11 ,ข้าวคะน้าหมูกรอบ ,Stir-fried kale with crispy pork,55,NULL,NULL,NULL,NULL
+FOR12 ,ข้าวผัดหมู ,Fried rice with pork,55,NULL,NULL,NULL,NULL
+FOR13 ,ข้าวผัดปลาหมึก ,Fried rice with squid,69,NULL,NULL,NULL,NULL
+FOR14 ,ข้าวผัดกุ้ง ,Fried rice with shrimp,69,NULL,NULL,NULL,NULL
+FOR15 ,ข้าวต้มหมู ,Porridge with pork,39,NULL,NULL,NULL,NULL
+FOR16 ,ข้าวต้มปลาหมึก ,Porridge with squid,55,NULL,NULL,NULL,NULL
+FOR17 ,ข้าวต้มกุ้ง ,Porridge with shrimp,55,NULL,NULL,NULL,NULL
+FOR18 ,มาม่าผัดหมู ,Stir Mama with pork,49,NULL,NULL,NULL,NULL
+FOR19 ,มาม่าต้มหมูสับ ,Bolled Mama with minced pork,49,NULL,NULL,NULL,NULL
+FOR20 ,ไข่ดาว ,egg,10,NULL,NULL,NULL,NULL
+FOR21 ,ไข่เจียว 1 ฟอง ,fried egg/1 egg,15,NULL,NULL,NULL,NULL
+FOR22 ,ข้าวสวยหอมมะลิ 1 จาน ,Jasmine Stamed rice /1 dish,10,NULL,NULL,NULL,NULL
+FOR23,ข้าวไข่ระเบิด,Rice with hot and spicy egg,59,NULL,NULL,NULL,NULL
+FOR24,ข้าวหมูผัดพริกแกง,Rice with hot spicy pork,55,NULL,NULL,NULL,NULL
+FP1 ,กระเพราไก่ ,Kraprao chicken  ,69,NULL,NULL,NULL,NULL
+FP2 ,กระเพราหมูสับ ,Kraprao pork,69,NULL,NULL,NULL,NULL
+FP3 ,แพนงหมู ,Pork Panang curry,79,NULL,NULL,NULL,NULL
+FP4 ,แกงเขียวหวานไก่ ,Gree curry pork,79,NULL,NULL,NULL,NULL
+FP5 ,แกงเขียวหวานหมู ,Gree curry chicken,79,NULL,NULL,NULL,NULL
+FP6,หมูเทริยากิ ,Pork teriyakj,79,NULL,NULL,NULL,NULL
+FP7 ,หมูเกาหลี ,Korean style pork,79,NULL,NULL,NULL,NULL
+FP8 ,กระเพราหมูกรอบ ,Kraprao  crispy pork,79,NULL,NULL,NULL,NULL
+FP9 ,ไข่เจียวหมูสับ ไข่สองฟอง ,Fried egg with pork two eggs,40,NULL,NULL,NULL,NULL
+FP10 ,คะน้าหมู ,Stir-fried kale with pork,69,NULL,NULL,NULL,NULL
+FP11 ,คะน้าหมูกรอบ ,Stir-fried kale with crispy pork,69,NULL,NULL,NULL,NULL
+FSF1 ,ผัดผักรวมมิตร  ,Yum fried eggs,49,NULL,NULL,NULL,NULL
+FSF2 ,หน่อไม้ผรั่งผัดกุ้ง ,Fried Asparagus with  shrimp,79,NULL,NULL,NULL,NULL
+FSO1 ,ต้มยำไก่ ,Tom yum chicken,99,NULL,NULL,NULL,NULL
+FSO2 ,ต้มยำกุ้ง ,Tom yum shrimp,99,NULL,NULL,NULL,NULL
+FSO3 ,ต้มยำปลาหมึก ,Tom yum squid,99,NULL,NULL,NULL,NULL
+FSO4 ,ต้มยำรวม ,Tom yum mix,99,NULL,NULL,NULL,NULL
+FSO5 ,แกงจืดเต้าหู้หมูสับ,Tofu soup,79,NULL,NULL,NULL,NULL
+FSO6 ,ซุปครีมข้าวโพด,Corn cream soup,59,NULL,NULL,NULL,NULL
+FSO7 ,ซุปครีมเห็ด,Mushroom cream soup,59,NULL,NULL,NULL,NULL
+FSY1 ,ยำไข่ดาว ,Yum fried eggs,59,NULL,NULL,NULL,NULL
+FSY2 ,ยำไส้กรอกปลา ,Yum fish sausage,59,NULL,NULL,NULL,NULL
+FSY3 ,ยำหมูย่าง ,Lemon grllled pork,69,NULL,NULL,NULL,NULL
+FSY4 ,ยำวุ้นเส้น,Glass Noodle Salad,69,NULL,NULL,NULL,NULL
+FSY5 ,ยำทูน่า,Yum Tuna,69,NULL,NULL,NULL,NULL
+FSN1 ,นักเก็ตไก่ ,Crepe cake,60,NULL,NULL,NULL,NULL
+FSN2 ,เฟรนช์ฟรายส์ ,French fried,50,NULL,NULL,NULL,NULL
+FSN3 ,ไส้กีอกปลาลวกจิ้ม ,Fish sausage,79,NULL,NULL,NULL,NULL
+FSN4 ,มักกะโรนีอบชีส ,Baked cheese macaroni,89,NULL,NULL,NULL,NULL
+FSN5 ,ผักโขมอบชีส ,Baked cheese spinach,89,NULL,NULL,NULL,NULL
+FSN6 ,ปีกไก่ทอดสมุนไพร ,Deep fried chicken wing,69,NULL,NULL,NULL,NULL
+FSN7 ,ขนมปังกระเทียม ,Garlic bread,49,NULL,NULL,NULL,NULL
+FSN8,เฟรนช์ฟราย อบชีส ,"Cheese, BBQ, Paprika, Hot and spicy",65,NULL,NULL,NULL,NULL
+FSN9,ส้มตำลาว,"Papaya salad lsan style, som tum loas",40,NULL,NULL,NULL,NULL
+FSN10,ตำแตงไข่ต้ม,Cucumber lsan style saka with boiled egg,60,NULL,NULL,NULL,NULL
+FBB1 ,ซีโครงหมูบาร์บีคิว /เต็ม ,BBQ Spaer Rib /Full rack,379,NULL,NULL,NULL,NULL
+FBB2 ,ซีโครงหมูบาร์บีคิว / ครึ่ง ,BBQ Spaer Rib/Half rack,199,NULL,NULL,NULL,NULL
+BC1,เครปเค้ก,Crepe cake,60,NULL,NULL,NULL,NULL
+BC2,นิวยอร์กซีส,NY cheese,60,NULL,NULL,NULL,NULL
+BC3,โอริโอชีส,Oreo Cheese,60,NULL,NULL,NULL,NULL
+BC4,บราวนี่ชีส,Brownie cheese,60,NULL,NULL,NULL,NULL
+BC5,แดงกำหยี่,Red velvet,55,NULL,NULL,NULL,NULL
+BC6,มูสชาเขียวถั่วแดง,NULL,85,NULL,NULL,NULL,NULL
+BC7,บราวนี่,Brownie,40,NULL,NULL,NULL,NULL
+BC8,ทิรามิสุ,Tiramisu,75,NULL,NULL,NULL,NULL
+BC9,ชีสมะม่วง ,Mango Cheese,75,NULL,NULL,NULL,NULL
+BC10,ฟรุตเค้ก,Fruit cake,60,NULL,NULL,NULL,NULL
+BC11,โอเปราเค้ก,Opera cake,110,NULL,NULL,NULL,NULL
+BC12,ฮันนี่โทส + ไอศครีม,Honey Toast + lce aream,125,NULL,NULL,NULL,NULL
+BC13,ขนมปังปิ้งเนยนม,NULL,25,NULL,NULL,NULL,NULL
+BC14,ขนมปังปิ้งเนยน้ำผึ้ง,NULL,30,NULL,NULL,NULL,NULL
+BTO1,แยม,Jam,10,NULL,NULL,NULL,NULL
+BTO2,สตอรเบอร์รี่,strawberry,15,NULL,NULL,NULL,NULL
+BTO3,กีวี่,Kiwi,15,NULL,NULL,NULL,NULL
+BTO4,แอปเปิ้ล,Apple,15,NULL,NULL,NULL,NULL
+BTO5,กล้วย,banana,15,NULL,NULL,NULL,NULL
+BTO6,วิปปิ้งครีม,whipped cream,15,NULL,NULL,NULL,NULL
+DR1,น้ำแข็งถังเล็ก,lce small,10,NULL,NULL,NULL,NULL
+DR2,น้ำแข็งถังใหญ่,lce Big,30,NULL,NULL,NULL,NULL
+DR3,น้ำดื่มสิงห์,Singha Drinking Water,10,NULL,NULL,NULL,NULL
+DR4,น้ำอัดลม,Soft Drink,15,NULL,NULL,NULL,NULL
+DHT1,ชาเขียวนม ,Green Tea Milk,40,NULL,NULL,NULL,NULL
+DLT1,ชาเขียวนม,Green Tea Milk,45,NULL,NULL,NULL,NULL
+DLT2,ชาเนสที,Nestea,45,NULL,NULL,NULL,NULL
+DLT3,ชามะนาว,Lemon ice tea,45,NULL,NULL,NULL,NULL
+DFT1,ชาเขียวนม,Green Tea Milk,50,NULL,NULL,NULL,NULL
+DFT2,ชาเนสที,Nestea,50,NULL,NULL,NULL,NULL
+DHF1,เอสเปรสโซ,Espresso,35,NULL,NULL,NULL,NULL
+DHF2,อเมริกาโน่,Americano,40,NULL,NULL,NULL,NULL
+DHF3,คาปูชิโน่,Cappuccino,40,NULL,NULL,NULL,NULL
+DHF4,ลาเต้,Latte,45,NULL,NULL,NULL,NULL
+DHF5,มอคค่า,Mocha,45,NULL,NULL,NULL,NULL
+DLF1,เอสเปรสโซ,Espresso,45,NULL,NULL,NULL,NULL
+DLF2,อเมริกาโน่,Americano,45,NULL,NULL,NULL,NULL
+DLF3,คาปูชิโน่,Cappuccino,50,NULL,NULL,NULL,NULL
+DLF4,ลาเต้,Latte,50,NULL,NULL,NULL,NULL
+DLF5,มอคค่า,Mocha,50,NULL,NULL,NULL,NULL
+DFF1,เอสเปรสโซ,Espresso,50,NULL,NULL,NULL,NULL
+DFF2,อเมริกาโน่,Americano,50,NULL,NULL,NULL,NULL
+DFF3,คาปูชิโน่,Cappuccino,55,NULL,NULL,NULL,NULL
+DFF4,ลาเต้,Latte,55,NULL,NULL,NULL,NULL
+DFF5,มอคค่า,Mocha,55,NULL,NULL,NULL,NULL
+DHS1,แจ๊สเฮ้าลาเต้,Jazz House Latte,50,NULL,NULL,NULL,NULL
+DHS2,กาแฟไอริช,lrish Coffee,50,NULL,NULL,NULL,NULL
+DHS3,เฟรนช์วนิลา,French Vanilla,50,NULL,NULL,NULL,NULL
+DHS4,อัลมอนด์,Almond,50,NULL,NULL,NULL,NULL
+DHS5,พิรามิสุ,Tiramisu,50,NULL,NULL,NULL,NULL
+DLS1,แจ๊สเฮ้าลาเต้,Jazz House Latte,55,NULL,NULL,NULL,NULL
+DLS2,คาราเมลแมคคีเอโต้,Caramel Macchiato,55,NULL,NULL,NULL,NULL
+DLS3,กาแฟไอริช,lrish Coffee,55,NULL,NULL,NULL,NULL
+DLS4,เฟรนช์วนิลา,French Vanilla,55,NULL,NULL,NULL,NULL
+DLS5,อัลมอนด์,Almond,55,NULL,NULL,NULL,NULL
+DLS6,พิรามิสุ,Tiramisu,55,NULL,NULL,NULL,NULL
+DFS1,แจ๊สเฮ้าลาเต้,Jazz House Latte,60,NULL,NULL,NULL,NULL
+DFS2,คาราเมลแมคคีเอโต้,Caramel Macchiato,60,NULL,NULL,NULL,NULL
+DFS3,กาแฟไอริช,lrish Coffee,60,NULL,NULL,NULL,NULL
+DFS4,เฟรนช์วนิลา,French Vanilla,60,NULL,NULL,NULL,NULL
+DFS5,อัลมอนด์,Almond,60,NULL,NULL,NULL,NULL
+DFS6,พิรามิสุ,Tiramisu,60,NULL,NULL,NULL,NULL
+DHM1,นมน้ำผึ้ง,Honey,35,NULL,NULL,NULL,NULL
+DHM2,นมคาราเมล,Caramel,35,NULL,NULL,NULL,NULL
+DLM1,นมน้ำผึ้ง,Honey,45,NULL,NULL,NULL,NULL
+DLM2,นมคาราเมล,Caramel,45,NULL,NULL,NULL,NULL
+DFM1,นมน้ำผึ้ง,Honey,50,NULL,NULL,NULL,NULL
+DFM2,นมคาราเมล,Caramel,50,NULL,NULL,NULL,NULL
+DHC1,โกโก้,Cocoa,35,NULL,NULL,NULL,NULL
+DHC2,ช็อคโกแลต,Chocolate,35,NULL,NULL,NULL,NULL
+DLC1,โกโก้,Cocoa,45,NULL,NULL,NULL,NULL
+DLC2,ช็อคโกแลต,Chocolate,45,NULL,NULL,NULL,NULL
+DFC1,โกโก้,Cocoa,50,NULL,NULL,NULL,NULL
+DFC2,ช็อคโกแลต,Chocolate,50,NULL,NULL,NULL,NULL
+DFO1,สตอรเบอร์รี่,Strawberry,50,NULL,NULL,NULL,NULL
+DFO2,บลูเบอร์รี่,Blueberry,60,NULL,NULL,NULL,NULL
+DLL1,เบอรี่น้ำแดง,Red fruit punch,35,NULL,NULL,NULL,NULL
+DLL2,กีวี่,Kiwi,35,NULL,NULL,NULL,NULL
+DLL3,บลูคารูโซ่,Blue Curacao,35,NULL,NULL,NULL,NULL
+DFL1,เบอรี่น้ำแดง,Red fruit punch,45,NULL,NULL,NULL,NULL
+DFL2,กีวี่,Kiwi,45,NULL,NULL,NULL,NULL
+DFL3,บลูคารูโซ่,Blue Curacao,45,NULL,NULL,NULL,NULL
+DHE1,ชาเอิลเกรย์,Earl Grey,35,NULL,NULL,NULL,NULL
+DHE2,ชาดำ,Black Tea,35,NULL,NULL,NULL,NULL
+DHE3,ชาเขียว,Green Tea,35,NULL,NULL,NULL,NULL
+DLE1,ชาเอิลเกรย์,Earl Grey,45,NULL,NULL,NULL,NULL
+DLE2,ชาดำ,Black Tea,45,NULL,NULL,NULL,NULL
+DLE3,ชาเขียว,Green Tea,45,NULL,NULL,NULL,NULL
+DFE1,ชาเอิลเกรย์,Earl Grey,50,NULL,NULL,NULL,NULL
+DFE2,ชาดำ,Black Tea,50,NULL,NULL,NULL,NULL
+DFE3,ชาเขียว,Green Tea,50,NULL,NULL,NULL,NULL

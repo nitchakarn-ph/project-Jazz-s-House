@@ -1,0 +1,298 @@
+<h5>Menu catalog : </h5>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card deck" style="width: 18rem;">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1505253149613-112d21d9f6a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Menu : </h5>
+                                <p class="card-text">menu code : and menu type :</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <!-- Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    Cilck here
+                                </button>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6 mr-auto">
+                                                        <img src="<?php echo explode('&', $objResult["menu_image"])[0] . "&auto=format&fit=crop&w=200&q=80"; ?>" alt="">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="text-md-left text-dark">Menu name :</p>
+                                                        <p class="text-md-left text-dark">Type : </p>
+                                                        <h6 class="text-md-left text-dark">Price : บาท</h6>
+
+                                                        <div class="form-group row">
+                                                            <label for="select" class="col-8 col-form-label text-md-left text-muted">Select number :</label>
+                                                            <div class="col-9">
+                                                                <select id="select" name="select" class="custom-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="1">5</option>
+                                                                    <option value="2">6</option>
+                                                                    <option value="3">7</option>
+                                                                    <option value="4">8</option>
+                                                                    <option value="3">9</option>
+                                                                    <option value="4">10</option>
+                                                                </select>
+                                                                <br>
+                                                                <!--<input class="btn btn-info" style="float:left;" type="submit" value="Submit" name="submit_number">-->
+                                                            </div>
+                                                        </div>
+                                                        <hr class="new1">
+                                                        <p class="text-right"><strong>Free</strong> | delivery</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                <input type="submit" class="btn btn-success" value="Save changes" name="submit_number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--======================================================col2==============================================================-->
+                <div class="col">
+                    <div class="card deck" style="width: 18rem;">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1505253149613-112d21d9f6a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Menu : </h5>
+                                <p class="card-text">menu code : and menu type :</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <!-- Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    Cilck here
+                                </button>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6 mr-auto">
+                                                        <img src="<?php echo explode('&', $objResult["menu_image"])[0] . "&auto=format&fit=crop&w=200&q=80"; ?>" alt="">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="text-md-left text-dark">Menu name :</p>
+                                                        <p class="text-md-left text-dark">Type : </p>
+                                                        <h6 class="text-md-left text-dark">Price : บาท</h6>
+
+                                                        <div class="form-group row">
+                                                            <label for="select" class="col-8 col-form-label text-md-left text-muted">Select number :</label>
+                                                            <div class="col-9">
+                                                                <select id="select" name="select" class="custom-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="1">5</option>
+                                                                    <option value="2">6</option>
+                                                                    <option value="3">7</option>
+                                                                    <option value="4">8</option>
+                                                                    <option value="3">9</option>
+                                                                    <option value="4">10</option>
+                                                                </select>
+                                                                <br>
+                                                                <!--<input class="btn btn-info" style="float:left;" type="submit" value="Submit" name="submit_number">-->
+                                                            </div>
+                                                        </div>
+                                                        <hr class="new1">
+                                                        <p class="text-right"><strong>Free</strong> | delivery</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                <input type="submit" class="btn btn-success" value="Save changes" name="submit_number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--======================================================col3==============================================================-->
+                <div class="col">
+                    <div class="card deck" style="width: 18rem;">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1505253149613-112d21d9f6a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Menu : </h5>
+                                <p class="card-text">menu code : and menu type :</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <!-- Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    Cilck here
+                                </button>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6 mr-auto">
+                                                        <img src="<?php echo explode('&', $objResult["menu_image"])[0] . "&auto=format&fit=crop&w=200&q=80"; ?>" alt="">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="text-md-left text-dark">Menu name :</p>
+                                                        <p class="text-md-left text-dark">Type : </p>
+                                                        <h6 class="text-md-left text-dark">Price : บาท</h6>
+
+                                                        <div class="form-group row">
+                                                            <label for="select" class="col-8 col-form-label text-md-left text-muted">Select number :</label>
+                                                            <div class="col-9">
+                                                                <select id="select" name="select" class="custom-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="1">5</option>
+                                                                    <option value="2">6</option>
+                                                                    <option value="3">7</option>
+                                                                    <option value="4">8</option>
+                                                                    <option value="3">9</option>
+                                                                    <option value="4">10</option>
+                                                                </select>
+                                                                <br>
+                                                                <!--<input class="btn btn-info" style="float:left;" type="submit" value="Submit" name="submit_number">-->
+                                                            </div>
+                                                        </div>
+                                                        <hr class="new1">
+                                                        <p class="text-right"><strong>Free</strong> | delivery</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                <input type="submit" class="btn btn-success" value="Save changes" name="submit_number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--======================================================col4==============================================================-->
+                <div class="col">
+                    <div class="card deck" style="width: 18rem;">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1505253149613-112d21d9f6a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Menu : </h5>
+                                <p class="card-text">menu code : and menu type :</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <!-- Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    Cilck here
+                                </button>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6 mr-auto">
+                                                        <img src="<?php echo explode('&', $objResult["menu_image"])[0] . "&auto=format&fit=crop&w=200&q=80"; ?>" alt="">
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="text-md-left text-dark">Menu name :</p>
+                                                        <p class="text-md-left text-dark">Type : </p>
+                                                        <h6 class="text-md-left text-dark">Price : บาท</h6>
+
+                                                        <div class="form-group row">
+                                                            <label for="select" class="col-8 col-form-label text-md-left text-muted">Select number :</label>
+                                                            <div class="col-9">
+                                                                <select id="select" name="select" class="custom-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="1">5</option>
+                                                                    <option value="2">6</option>
+                                                                    <option value="3">7</option>
+                                                                    <option value="4">8</option>
+                                                                    <option value="3">9</option>
+                                                                    <option value="4">10</option>
+                                                                </select>
+                                                                <br>
+                                                                <!--<input class="btn btn-info" style="float:left;" type="submit" value="Submit" name="submit_number">-->
+                                                            </div>
+                                                        </div>
+                                                        <hr class="new1">
+                                                        <p class="text-right"><strong>Free</strong> | delivery</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                <input type="submit" class="btn btn-success" value="Save changes" name="submit_number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h5>Menu catalog : </h5>
+                <div class="col">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <h5>Menu catalog : </h5>
+                <div class="col">
+
+                </div>
+            </div>
